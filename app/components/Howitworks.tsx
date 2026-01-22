@@ -12,7 +12,7 @@ export default function Howitworks() {
   {
     icon: ShieldCheck,
     title: "We Confirm it's you",
-    description: "Raba understand your voice and confirm your identity",
+    description: "Raba understands your voice and confirms your identity",
   },
   {
     icon: Zap,
