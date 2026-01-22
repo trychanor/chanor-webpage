@@ -3,24 +3,25 @@ import { Container } from "./ui/Container";
 
 export default function Howitworks() {
   const FEATURES = [
-    {
-      icon: AudioLines,
-      title: "Speak Neutrally",
-      description:
-        'Say it the way you talk. "Mehn, send 65,000 to Abba." Your voice is your command',
-    },
-    {
-      icon: ShieldCheck,
-      title: "We Confirm it's you",
-      description: "Raba understand your voice and confirm your identity",
-    },
-    {
-      icon: Zap,
-      title: "Money move instantly",
-      description:
-        "Once you speak and confirm, your money moves immediately. Fast, secure.",
-    },
-  ];
+  {
+    icon: AudioLines,
+    title: "Tap the mic and speak naturally",
+    description:
+      'Say it the way you talk. "Mehn, send ₦65,000 to Abba." Your voice is your command',
+  },
+  {
+    icon: ShieldCheck,
+    title: "We Confirm it's you",
+    description: "Raba understand your voice and confirm your identity",
+  },
+  {
+    icon: Zap,
+    title: "Money moves instantly",
+    description:
+      "Once confirmed, your transaction is completed instantly, fast and secure.",
+  },
+];
+
   return (
     <Container className="pb-[75px] md:pb-[100px]">
       <div className="text-center">
