@@ -7,7 +7,7 @@ export default function Howitworks() {
     icon: AudioLines,
     title: "Tap the mic and speak naturally",
     description:
-      'Say it the way you talk. "Mehn, send 65,000 to Abba." Your voice is your command',
+      'Say it the way you talk. "Mehn, send ₦65,000 to Abba." Your voice is your command',
   },
   {
     icon: ShieldCheck,
@@ -16,7 +16,7 @@ export default function Howitworks() {
   },
   {
     icon: Zap,
-    title: "Money move instantly",
+    title: "Money moves instantly",
     description:
       "Once confirmed, your transaction is completed instantly, fast and secure.",
   },
