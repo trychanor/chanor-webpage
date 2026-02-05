@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         >
           <p className=" text-neutral-black/80 text-base leading-relaxed">
-            RABA is redefining the way you move money, fast, secure, and
+            Chanor is redefining the way you move money, fast, secure, and
             completely hands-free.
           </p>
           <div className="flex flex-wrap flex-row max-sm:flex-row gap-4">

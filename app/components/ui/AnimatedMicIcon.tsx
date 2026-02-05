@@ -16,10 +16,10 @@ export default function AnimatedMicIcon({ size = "md" }: AnimatedMicIconProps) {
   return (
     <>
       <div className="relative flex items-center justify-center">
-        <div className="absolute inset-0 rounded-full bg-raba-orange/10 animate-waveform" />
+        <div className="absolute inset-0 rounded-full bg-chanor-orange/10 animate-waveform" />
 
         <div
-          className={`relative flex items-center justify-center ${container} bg-raba-orange rounded-full`}
+          className={`relative flex items-center justify-center ${container} bg-chanor-orange rounded-full`}
         >
           <Mic className={`${icon} text-white`} />
         </div>

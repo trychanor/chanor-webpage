@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import AnimatedMicIcon from "@/app/components/ui/AnimatedMicIcon";
 import { SoundWave } from "./ui/SoundWave";
 const LANGUAGES = [
-  { id: "hausa", label: "Hausa", text: "Raba, aika N5,000 ga Aisha." },
-  { id: "igbo", label: "Igbo", text: "Raba, ziga N5,000 nye Aisha." },
-  { id: "yoruba", label: "Yoruba", text: "Raba, fi N5,000 ranṣẹ si Aisha." },
-  { id: "pidgin", label: "Pidgin", text: "Raba, send N5,000 give Aisha." },
+  { id: "hausa", label: "Hausa", text: "Chanor, aika N5,000 ga Aisha." },
+  { id: "igbo", label: "Igbo", text: "Chanor, ziga N5,000 nye Aisha." },
+  { id: "yoruba", label: "Yoruba", text: "Chanor, fi N5,000 ranṣẹ si Aisha." },
+  { id: "pidgin", label: "Pidgin", text: "Chanor, send N5,000 give Aisha." },
 ];
 
 // const SoundWave = () => (
@@ -47,13 +47,13 @@ export default function Features() {
       <div className="max-w-[1200px] mx-auto text-center mb-[25px] md:mb-[45px] lg:mb-[65px]">
         <div className="flex items-center justify-center gap-2 mb-[25px]">
           <AnimatedMicIcon size="md" />
-          <span className="text-base text-raba-orange font-semibold leading-5 -tracking-[0.25px]">
+          <span className="text-base text-chanor-orange font-semibold leading-5 -tracking-[0.25px]">
             SPEAK MONEY YOUR WAY
           </span>
         </div>
 
         <h2 className="text-2xl md:text-[40px] -tracking-[0.25px] font-semibold text-neutral-black">
-          Bank in <span className="text-raba-orange">Your Own Language.</span>
+          Bank in <span className="text-chanor-orange">Your Own Language.</span>
         </h2>
       </div>
 
@@ -65,8 +65,8 @@ export default function Features() {
             onClick={() => handleLanguageChange(language.id)}
             className={`px-3 md:px-5 lg:px-6 py-2 md:py-2.5 lg:py-3 text-sm md:text-base rounded-md font-semibold transition-all duration-300 cursor-pointer ${
               selectedLanguage === language.id
-                ? "bg-raba-orange text-white scale-105"
-                : "bg-white text-neutral-black border border-raba-orange hover:border-raba-orange hover:text-raba-orange"
+                ? "bg-chanor-orange text-white scale-105"
+                : "bg-white text-neutral-black border border-chanor-orange hover:border-chanor-orange hover:text-chanor-orange"
             }`}
           >
             {language.label}

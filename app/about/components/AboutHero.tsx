@@ -10,7 +10,7 @@ export default function AboutHero() {
       <div className="text-center">
         <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#EF5A22]/10 rounded-2xl mb-8">
           <span className="bg-white p-2 rounded-lg text-base leading-6 -tracking-[0.25px] text-neutral-black cursor-pointer">
-            Rabapay
+            Chanor
           </span>
           <span className="text-base leading-6 -tracking-[0.25px] text-neutral-black cursor-pointer">
             About Us
@@ -22,7 +22,7 @@ export default function AboutHero() {
         </h1>
 
         <p className="text-base leading-6 -tracking-[0.25px] text-neutral-black/80 max-w-[450px] mx-auto">
-          Rabapay is a secure digital wallet that makes payments effortless with
+          Chanor is a secure digital wallet that makes payments effortless with
           voice-powered convenience.
         </p>
       </div>
@@ -34,7 +34,7 @@ export default function AboutHero() {
             fill
             placeholder="blur"
             className="object-cover"
-            alt="Raba Hero Image"
+            alt="Chanor Hero Image"
             sizes="(max-width: 640px) 100vw, 378px"
           />
         </div>
@@ -45,7 +45,7 @@ export default function AboutHero() {
             fill
             placeholder="blur"
             className="object-cover"
-            alt="Raba Hero Image"
+            alt="Chanor Hero Image"
             sizes="(max-width: 640px) 100vw, 378px"
             priority
           />
@@ -57,7 +57,7 @@ export default function AboutHero() {
             fill
             placeholder="blur"
             className="object-cover"
-            alt="Raba Hero Image"
+            alt="Chanor Hero Image"
             sizes="(max-width: 640px) 100vw, 378px"
           />
         </div>
@@ -71,7 +71,7 @@ export default function AboutHero() {
           { value: "99%", label: "Customer Satisfaction" },
         ].map((stat, index) => (
           <li key={index} className="w-[48%] md:w-[23%]">
-            <h2 className="text-[1.75rem] md:text-[2rem] font-semibold text-raba-orange ">
+            <h2 className="text-[1.75rem] md:text-[2rem] font-semibold text-chanor-orange ">
               {stat.value}
             </h2>
             <p className="text-sm md:text-base text-neutral-black/80">

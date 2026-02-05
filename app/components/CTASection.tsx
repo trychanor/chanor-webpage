@@ -50,7 +50,7 @@ export default function CTASection() {
                 src="/mobile-device-mockup.svg"
                 width={692}
                 height={571}
-                alt="Raba App on Phone"
+                alt="Chanor App on Phone"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
               />
             </div>

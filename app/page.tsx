@@ -13,10 +13,10 @@ import CTASection from "./components/CTASection";
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "RabaPay is a fast, secure African fintech app for sending money, paying bills, topping up airtime and data, managing business accounts, and using voice banking for hands-free transactions.",
+    "Chanor is a fast, secure African fintech app for sending money, paying bills, topping up airtime and data, managing business accounts, and using voice banking for hands-free transactions.",
 
   keywords: [
-    "RabaPay",
+    "Chanor",
     "African fintech app",
     "Send money in Nigeria",
     "Voice banking app",
@@ -29,17 +29,17 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "RabaPay | Voice-First Digital Banking for Africa",
+    title: "Chanor | Voice-First Digital Banking for Africa",
     description:
-      "Send money, pay bills, top up airtime & data, and manage business finances with RabaPay — Africa’s voice-first digital banking app.",
-    url: "https://tryraba.com",
-    siteName: "RabaPay",
+      "Send money, pay bills, top up airtime & data, and manage business finances with Chanor — Africa’s voice-first digital banking app.",
+    url: "https://trychanor.com",
+    siteName: "Chanor",
     images: [
       {
-        url: "https://tryraba.com/rabapay-og.jpg",
+        url: "https://trychanor.com/chanor-og.jpg",
         width: 1200,
         height: 630,
-        alt: "RabaPay – Voice-First Digital Banking App",
+        alt: "Chanor – Voice-First Digital Banking App",
       },
     ],
     type: "website",
@@ -47,14 +47,14 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "RabaPay | Voice-First Digital Banking for Africa",
+    title: "Chanor | Voice-First Digital Banking for Africa",
     description:
       "Africa’s voice-first fintech app for fast payments, airtime, data, and business banking.",
-    images: ["https://tryraba.com/rabapay-og.jpeg"],
+    images: ["https://trychanor.com/chanor-og.jpeg"],
   },
 
   alternates: {
-    canonical: "https://tryraba.com/",
+    canonical: "https://trychanor.com/",
   },
 };
 

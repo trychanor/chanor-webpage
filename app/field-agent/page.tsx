@@ -5,36 +5,36 @@ import Steps from "./components/Steps";
 import { Container } from "../components/ui/Container";
 
 export const metadata: Metadata = {
-  title: "Become a Raba Field Agent",
+  title: "Become a Chanor Field Agent",
 
   description:
-    "Join RabaPay as a Field Agent and earn weekly commissions by helping people in your local community send money and access simple financial services.",
+    "Join Chanor as a Field Agent and earn weekly commissions by helping people in your local community send money and access simple financial services.",
 
   keywords: [
-    "RabaPay Field Agent",
-    "Become a RabaPay Agent",
-    "RabaPay agent registration",
+    "Chanor Field Agent",
+    "Become a Chanor Agent",
+    "Chanor agent registration",
     "Fintech agent Nigeria",
     "POS agent Nigeria",
     "Earn commissions as an agent",
     "Field agent jobs Nigeria",
-    "RabaPay agents",
+    "Chanor agents",
     "Mobile banking agents",
     "Voice banking Nigeria",
   ],
 
   openGraph: {
-    title: "Become a RabaPay Field Agent | Earn Weekly Commissions",
+    title: "Become a Chanor Field Agent | Earn Weekly Commissions",
     description:
-      "Join Raba’s nationwide network of field agents. Earn commissions, work in your community, and help people access financial services with ease.",
-    url: "https://tryraba.com/field-agent",
-    siteName: "RabaPay",
+      "Join Chanor’s nationwide network of field agents. Earn commissions, work in your community, and help people access financial services with ease.",
+    url: "https://trychanor.com/field-agent",
+    siteName: "Chanor",
     images: [
       {
-        url: "https://tryraba.com/rabapay-og.jpeg",
+        url: "https://trychanor.com/chanor-og.jpeg",
         width: 1200,
         height: 630,
-        alt: "Become a RabaPay Field Agent",
+        alt: "Become a Chanor Field Agent",
       },
     ],
     type: "website",
@@ -42,19 +42,19 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Become a RabaPay Field Agent",
+    title: "Become a Chanor Field Agent",
     description:
-      "Earn weekly commissions by joining Raba as a field agent and helping your local community access financial tools.",
-    images: ["https://tryraba.com/rabapay-og.jpeg"],
+      "Earn weekly commissions by joining Chanor as a field agent and helping your local community access financial tools.",
+    images: ["https://trychanor.com/chanor-og.jpeg"],
   },
 
   alternates: {
-    canonical: "https://tryraba.com/field-agent",
+    canonical: "https://trychanor.com/field-agent",
   },
 };
 
 export default function Page() {
-  const WHY_RABA_AGENT = [
+  const WHY_CHANOR_AGENT = [
     {
       icon: "/field-agent/icon-earn.svg",
       heading: "Earn Weekly Commissions",
@@ -73,7 +73,7 @@ export default function Page() {
     {
       icon: "/field-agent/icon-training.svg",
       heading: "Training & Support",
-      text: "Every Raba agent gets onboarding training and ongoing support from our team",
+      text: "Every Chanor agent gets onboarding training and ongoing support from our team",
     },
   ];
   const REQUIRMENTS = [
@@ -100,13 +100,13 @@ export default function Page() {
         {/* Hero Section */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
           <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[44px] lg:leading-[52px] -tracking-[0.5px] text-neutral-black font-bold max-w-[384px] md:max-w-[600px] mx-auto mb-4">
-            Become a Raba Field Agent
+            Become a Chanor Field Agent
           </h1>
           <p className="text-base md:text-lg leading-6 md:leading-7 -tracking-[0.25px] text-neutral-black/80 max-w-[795px] mx-auto mb-6 md:mb-8">
-            Join our nationwide network of Raba field agents helping people send
+            Join our nationwide network of Chanor field agents helping people send
             money and grow their business, in their local language and community
           </p>
-          <button className="bg-raba-orange hover:bg-orange-600 text-white text-base md:text-lg leading-6 font-semibold px-6 md:px-8 py-3 md:py-4 rounded-[56px] transition-all duration-300 transform hover:scale-105 cursor-pointer">
+          <button className="bg-chanor-orange hover:bg-orange-600 text-white text-base md:text-lg leading-6 font-semibold px-6 md:px-8 py-3 md:py-4 rounded-[56px] transition-all duration-300 transform hover:scale-105 cursor-pointer">
             Register as a Field Agent
           </button>
         </div>
@@ -114,13 +114,13 @@ export default function Page() {
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-stretch gap-8 lg:gap-12">
           <aside className="flex-1 lg:max-w-[calc(50%-24px)]">
             <h2 className="text-2xl md:text-[32px] font-semibold text-neutral-black leading-tight -tracking-[0.25px] mb-6 md:mb-8">
-              Why Become a Raba Agent
+              Why Become a Chanor Agent
             </h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 md:gap-4">
-              {WHY_RABA_AGENT.map((data, index) => (
+              {WHY_CHANOR_AGENT.map((data, index) => (
                 <li
                   key={index}
-                  className="flex flex-col gap-3 md:gap-4 bg-raba-orange text-[#FFFFDC] w-full lg:min-h-[300px] py-5 md:py-6 px-3.5 md:px-4 rounded-[10px] hover:scale-[1.02] transition-transform duration-300 shadow-md"
+                  className="flex flex-col gap-3 md:gap-4 bg-chanor-orange text-[#FFFFDC] w-full lg:min-h-[300px] py-5 md:py-6 px-3.5 md:px-4 rounded-[10px] hover:scale-[1.02] transition-transform duration-300 shadow-md"
                 >
                   <Image
                     src={data.icon}

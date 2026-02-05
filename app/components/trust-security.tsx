@@ -5,7 +5,7 @@ export default function TrustSecuritySection() {
     <Container className="pb-18.75 md:pb-25">
       <div className="grid md:grid-cols-2 gap-6.25 items-center md:justify-between">
         <div className="space-y-6 text-left order-2 md:order-1">
-          <span className="text-raba-orange text-sm font-semibold uppercase tracking-wider block mb-1.5 md:mb-[11px]">
+          <span className="text-chanor-orange text-sm font-semibold uppercase tracking-wider block mb-1.5 md:mb-[11px]">
             Trust & Security
           </span>
 
@@ -15,11 +15,11 @@ export default function TrustSecuritySection() {
 
           <p className="text-neutral-black text-base md:text-xl lg:leading-10 font-medium -tracking-[0.25px] mb-2.5 md:mb-5">
             No more worrying about fraud or fake apps. Your voice is your
-            password, safe, unique, and protected. With Raba, your money and
+            password, safe, unique, and protected. With Chanor, your money and
             your peace of mind stay secure.
           </p>
 
-          <button className="bg-raba-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105">
+          <button className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105">
             Open an account
           </button>
         </div>
@@ -32,12 +32,12 @@ export default function TrustSecuritySection() {
                 md:h-[411px]
                 md:max-w-[482px]
                 rounded-[40px] sm:rounded-[60px] md:rounded-[80px]
-                bg-gradient-to-br from-orange-50 via-orange-100 to-yellow-50
+                bg-linear-to-br from-orange-50 via-orange-100 to-yellow-50
                 overflow-hidden
               "
           >
             <Image
-              src="/home/raba-trust-and-security.png"
+              src="/home/chanor-trust-and-security.png"
               alt="Woman using banking app securely"
               fill
               className="object-contain object-bottom"

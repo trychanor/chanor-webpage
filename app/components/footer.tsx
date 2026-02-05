@@ -52,18 +52,19 @@ export default function FooterCTASection() {
               {/* Logo */}
               <div>
                 <Image
-                  src="/rabalogo.png"
-                  alt="Raba Logo"
+                  src="/chanorlogo.png"
+                  alt="Chanor Logo"
                   width={120}
                   height={40}
                   sizes="120px"
+                  className="scale-200"
                 />
               </div>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Say it, Send it, Done.
               </p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Raba is Nigerian first voice-powered banking experience — built
+                Chanor is Nigerian first voice-powered banking experience — built
                 to make everyday money moments effortless. Send money, pay
                 bills, and top up; all by speaking.
               </p>
@@ -146,7 +147,7 @@ export default function FooterCTASection() {
           <div className="border-t border-gray-200 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-sm text-gray-600">
-                © 2025 Raba. All rights reserved
+                © {new Date().getFullYear()} Chanor. All rights reserved
               </p>
               <div className="flex gap-6">
                 <Link
@@ -164,9 +165,9 @@ export default function FooterCTASection() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mt-6 leading-relaxed">
-              RabaPay is not a bank. We operate as a Wallet-as-a-Service (WaaS)
+              Chanor is not a bank. We operate as a Wallet-as-a-Service (WaaS)
               platform, working with licensed financial service partners who
-              provide the regulated wallet and payment infrastructure. RabaPay
+              provide the regulated wallet and payment infrastructure. Chanor
               is operated by a registered brand collaborator, legally
               incorporated in Nigeria, and licensed in partnership with Providus
               Bank.
