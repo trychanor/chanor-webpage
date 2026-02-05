@@ -13,12 +13,12 @@ export default function FastTransaction() {
                 md:h-[411px]        
                 md:max-w-[482px]   
                 rounded-[60px] sm:rounded-[80px] md:rounded-[100px]
-                bg-gradient-to-br from-orange-50 via-orange-100 to-yellow-50
+                bg-linear-to-br from-orange-50 via-orange-100 to-yellow-50
                 overflow-hidden
               "
           >
             <Image
-              src="/home/raba-login-mockup.png"
+              src="/home/chanor-login-mockup.png"
               alt="Phone showing fast transaction"
               fill
               className="object-contain object-bottom"
@@ -29,7 +29,7 @@ export default function FastTransaction() {
 
         {/* TEXT */}
         <div className="space-y-6 text-left">
-          <span className="text-raba-orange text-sm font-semibold uppercase tracking-wider block mb-1.5 md:mb-[11px]">
+          <span className="text-chanor-orange text-sm font-semibold uppercase tracking-wider block mb-1.5 md:mb-[11px]">
             Fast Transaction
           </span>
 
@@ -38,12 +38,12 @@ export default function FastTransaction() {
           </h2>
 
           <p className="text-neutral-black text-base md:text-xl lg:leading-10 font-medium -tracking-[0.25px] mb-2.5 md:mb-5">
-            Even on the go, Raba ensures fast, reliable transfers. No network
+            Even on the go, Chanor ensures fast, reliable transfers. No network
             interruptions, no waiting, just open the app or speak, and your
             transaction is complete.
           </p>
 
-          <button className="bg-raba-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105">
+          <button className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105">
             Open an account
           </button>
         </div>

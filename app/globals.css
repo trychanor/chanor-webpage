@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --raba-orange: #ef5a22;
+  --chanor-orange: #ef5a22;
   --neutral-black: #1a1a1a;
   --background: #ffffff;
   --foreground: #171717;
@@ -9,7 +9,7 @@
 
 @theme inline {
   --color-neutral-black: var(--neutral-black);
-  --color-raba-orange: var(--raba-orange);
+  --color-chanor-orange: var(--chanor-orange);
 
   /* --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -24,11 +24,11 @@
   }
 }
 
-body {
-  /* background: var(--background);
-  color: var(--foreground); */
-  /* font-family: "Poppins", sans-serif; */
-}
+/* body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Poppins", sans-serif;
+} */
 
 /* Bold placeholder text */
 input::placeholder {

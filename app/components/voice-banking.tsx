@@ -6,7 +6,7 @@ import { Container } from "./ui/Container";
 export default function VoiceBankingSection() {
   return (
     <Container className="py-18.75 md:py-25">
-      <p className="text-base text-raba-orange font-semibold leading-5 -tracking-[0.25px] text-center">
+      <p className="text-base text-chanor-orange font-semibold leading-5 -tracking-[0.25px] text-center">
         Real voices. Real moments.
       </p>
 
@@ -16,7 +16,7 @@ export default function VoiceBankingSection() {
 
       <div className="grid md:grid-cols-2 gap-6.25 items-center md:justify-between mt-6.25">
         <div className="text-left order-2 md:order-1 ">
-          <span className="text-raba-orange text-sm font-semibold uppercase tracking-wider mb-1.5 md:mb-[11px] block">
+          <span className="text-chanor-orange text-sm font-semibold uppercase tracking-wider mb-1.5 md:mb-[11px] block">
             Voice Banking
           </span>
 
@@ -25,12 +25,12 @@ export default function VoiceBankingSection() {
           </h2>
 
           <p className="text-neutral-black text-base md:text-xl lg:leading-10 font-medium -tracking-[0.25px] mb-2.5 md:mb-5">
-            Send money using just your voice, in any language you speak. Raba
+            Send money using just your voice, in any language you speak. Chanor
             understands you, no typing, no stress. Just say it and your rent is
             paid instantly.
           </p>
 
-          <button className="bg-raba-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[3.5rem] transition-all duration-300 transform hover:scale-105 cursor-pointer">
+          <button className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[3.5rem] transition-all duration-300 transform hover:scale-105 cursor-pointer">
             Open an account
           </button>
         </div>
@@ -41,7 +41,7 @@ export default function VoiceBankingSection() {
               <AnimatedMicIcon size="sm" />
             </div>
             <span className="text-xs sm:text-sm font-medium text-neutral-black/80">
-              Raba, turo min kudin haya
+              Chanor, turo min kudin haya
             </span>
           </div>
 
@@ -61,12 +61,12 @@ export default function VoiceBankingSection() {
                 md:h-[411px]       
                 md:max-w-[482px]      
                 rounded-[60px] sm:rounded-[80px] md:rounded-[100px]
-                bg-gradient-to-b from-orange-50 via-orange-100 to-yellow-50
+                bg-linear-to-b from-orange-50 via-orange-100 to-yellow-50
                 overflow-hidden
               "
           >
             <Image
-              src="/home/raba-voice-banking.png"
+              src="/home/chanor-voice-banking.png"
               alt="Woman using voice banking"
               fill
               className="object-contain object-bottom"

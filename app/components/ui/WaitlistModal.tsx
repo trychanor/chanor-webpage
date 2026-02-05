@@ -25,16 +25,16 @@ export default function WaitlistModal() {
 
           {/* Modal Content */}
           <h2 className="text-2xl md:text-[32px] font-semibold text-neutral-black leading-tight -tracking-[0.25px] mb-2.5 md:mb-5">
-            Be one of Raba&apos;s Earliest Supporters
+            Be one of Chanor&apos;s Earliest Supporters
           </h2>
           <p className="text-neutral-black/80 text-base font-medium -tracking-[0.25px] mb-2.5 md:mb-5">
-            Raba is building a smarter fintech experience, and we&apos;re
+            Chanor is building a smarter fintech experience, and we&apos;re
             launching very soon.
             <br />
             Some features on this page are still in progress, but you can secure
             your spot early.
             <br /> <br />
-            Join our waitlist and be the first to know when Raba goes live.
+            Join our waitlist and be the first to know when Chanor goes live.
           </p>
           <form className="flex flex-col gap-3">
             <input
@@ -46,13 +46,13 @@ export default function WaitlistModal() {
             />
             <button
               type="submit"
-              className="bg-raba-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105 cursor-pointer"
+              className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105 cursor-pointer"
             >
-              Join Raba Early
+              Join Chanor Early
             </button>
           </form>
           <span
-            className="block text-sm text-raba-orange underline text-center mt-2 cursor-pointer"
+            className="block text-sm text-chanor-orange underline text-center mt-2 cursor-pointer"
             onClick={() => setIsOpen(false)}
           >
             Continue to view website

@@ -52,11 +52,11 @@ const Header = () => {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/rabalogo.png"
-            alt="RabaPay"
-            className="w-36 h-23"
-            width={144}
-            height={92}
+            src="/chanorlogo.png"
+            alt="Chanor"
+            className="scale-200"
+            width={120}
+            height={40}
             sizes="144px"
           />
         </Link>
@@ -76,7 +76,7 @@ const Header = () => {
 
         {/* Desktop CTA Button */}
         <button className="text-base leading-5 -tracking-[0.25px] hidden lg:block px-6 py-3 bg-[#EC5C28] text-white rounded-full hover:bg-[#d94f1f] transition-colors duration-200">
-          Join Raba
+          Join Chanor
         </button>
 
         {/* Mobile Menu Button */}
@@ -118,7 +118,7 @@ const Header = () => {
               </a>
             ))}
             <button className="mt-2 w-full px-5 py-3 bg-[#EC5C28] text-white rounded-full font-semibold hover:bg-[#d94f1f] transition-colors duration-300 cursor-pointer">
-              Join Raba
+              Join Chanor
             </button>
           </nav>
         </Container>

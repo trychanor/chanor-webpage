@@ -8,7 +8,7 @@ export default function BlogHero() {
         <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#EF5A22]/10 rounded-2xl mb-8">
             <span className="bg-white p-2 rounded-lg text-base leading-6 -tracking-[0.25px] text-neutral-black cursor-pointer">
-              Rabapay
+              Chanor
             </span>
             <span className="text-base leading-6 -tracking-[0.25px] text-neutral-black cursor-pointer">
               Blog
@@ -25,10 +25,10 @@ export default function BlogHero() {
             <input
               type="text"
               placeholder="Search"
-              className="w-full px-5 py-5 pl-12 pr-24 rounded-xl border border-gray-200 bg-white text-neutral-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-raba-orange/20 focus:border-raba-orange transition-all"
+              className="w-full px-5 py-5 pl-12 pr-24 rounded-xl border border-gray-200 bg-white text-neutral-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-chanor-orange/20 focus:border-chanor-orange transition-all"
             />
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-            <button className="absolute right-4 top-1/2 -translate-y-1/2 px-4 py-3 bg-raba-orange text-white text-sm font-medium rounded-md hover:bg-orange-600 transition-colors cursor-pointer">
+            <button className="absolute right-4 top-1/2 -translate-y-1/2 px-4 py-3 bg-chanor-orange text-white text-sm font-medium rounded-md hover:bg-orange-600 transition-colors cursor-pointer">
               Search
             </button>
           </div>

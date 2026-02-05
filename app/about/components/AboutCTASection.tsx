@@ -7,11 +7,11 @@ export default function AboutCTASection() {
       <div className="flex lg:flex-row flex-col justify-between bg-raba-orange rounded-3xl px-6 md:px-14 pt-[50px] md:pt-[100px]">
         <div className="lg:max-w-[480px] lg:pb-14">
           <h2 className="text-xl md:text-[2rem] -tracking-[0.5px] font-semibold text-white mb-4 md:mb-8">
-            Join Rabapay Future of digital finance
+            Join Chanor Future of digital finance
           </h2>
           <p className="text-base text-white leading-8 -tracking-[0.25px] font-light mb-4">
             We believe the future of payments is natural, fast, intuitive, and
-            human-centered. With Rabapay and Raba Voice Intelligence, we’re
+            human-centered. With Chanor Voice Intelligence, we’re
             creating a world where technology works with you, not against you.
             <br />
             <br />

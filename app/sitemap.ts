@@ -5,31 +5,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://tryraba.com",
+      url: "https://trychanor.com",
       lastModified: now,
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: "https://tryraba.com/about",
+      url: "https://trychanor.com/about",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://tryraba.com/blog",
+      url: "https://trychanor.com/blog",
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.5,
     },
     {
-      url: "https://tryraba.com/contact",
+      url: "https://trychanor.com/contact",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: "https://tryraba.com/field-agent",
+      url: "https://trychanor.com/field-agent",
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,

@@ -1,16 +1,16 @@
 import { Container } from "@/app/components/ui/Container";
 import { Lightbulb, Shield, ShieldPlus } from "lucide-react";
 
-export default function RabaFoundation() {
+export default function ChanorFoundation() {
   return (
-    <Container className="bg-raba-orange/10 py-[75px] md:py-[100px]">
+    <Container className="bg-chanor-orange/10 py-[75px] md:py-[100px]">
       <h2 className="text-2xl md:text-[2rem] md:leading-6 -tracking-[0.5px] font-semibold text-neutral-black text-center mb-8">
-        The Foundation of Rabapay
+        The Foundation of Chanor
       </h2>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 items-start">
         <li className="w-full md:max-w-87.5 bg-white rounded-2xl p-5 md:py-6 md:px-3">
           <div className="flex justify-center md:justify-start">
-            <div className="inline-flex justify-center items-center w-12 h-12 bg-raba-orange/10 rounded-full">
+            <div className="inline-flex justify-center items-center w-12 h-12 bg-chanor-orange/10 rounded-full">
               <Lightbulb className="w-8 h-8 text-neutral-black" />
             </div>
           </div>
@@ -24,7 +24,7 @@ export default function RabaFoundation() {
         </li>
         <li className="w-full md:max-w-87.5 bg-white rounded-2xl p-5 md:py-6 md:px-3">
           <div className="flex justify-center md:justify-start">
-            <div className="inline-flex justify-center items-center w-12 h-12 bg-raba-orange/10 rounded-full">
+            <div className="inline-flex justify-center items-center w-12 h-12 bg-chanor-orange/10 rounded-full">
               <Shield className="w-8 h-8 text-neutral-black" />
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function RabaFoundation() {
         </li>
         <li className="w-full md:max-w-87.5 bg-white rounded-2xl p-5 md:py-6 md:px-3">
           <div className="flex justify-center md:justify-start">
-            <div className="inline-flex justify-center items-center w-12 h-12 bg-raba-orange/10 rounded-full">
+            <div className="inline-flex justify-center items-center w-12 h-12 bg-chanor-orange/10 rounded-full">
               <ShieldPlus className="w-8 h-8 text-neutral-black" />
             </div>
           </div>

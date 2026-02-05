@@ -25,7 +25,7 @@ export default function CoreBenefits() {
       <div className="text-center">
         <h2 className="text-2xl md:text-[40px] -tracking-[0.25px] font-semibold text-neutral-black">
           Your Money. Your Voice.{" "}
-          <span className="text-raba-orange">Protected</span>
+          <span className="text-chanor-orange">Protected</span>
         </h2>
       </div>
 
@@ -36,8 +36,8 @@ export default function CoreBenefits() {
             className="space-y-4 md:space-y-5 border border-[#F3F2F2] rounded-2xl p-4 md:p-5 lg:py-5 lg:px-6 shadow-[0px_4px_4px_0px_rgba(239,239,239,0.25)]"
           >
             <div className="flex justify-center">
-              <div className="w-14 md:w-16 h-14 md:h-16 bg-raba-orange/10 rounded-full flex items-center justify-center">
-                <Icon className="w-7 md:w-8 lg:w-10 h-7 md:h-8 lg:h-10 text-raba-orange" />
+              <div className="w-14 md:w-16 h-14 md:h-16 bg-chanor-orange/10 rounded-full flex items-center justify-center">
+                <Icon className="w-7 md:w-8 lg:w-10 h-7 md:h-8 lg:h-10 text-chanor-orange" />
               </div>
             </div>
             <h2 className="text-lg md:text-xl font-bold text-center md:text-start text-neutral-black">

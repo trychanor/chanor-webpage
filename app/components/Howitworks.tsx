@@ -12,7 +12,7 @@ export default function Howitworks() {
   {
     icon: ShieldCheck,
     title: "We Confirm it's you",
-    description: "Raba understands your voice and confirms your identity",
+    description: "Chanor understands your voice and confirms your identity",
   },
   {
     icon: Zap,
@@ -45,8 +45,8 @@ export default function Howitworks() {
         ))}
       </div>
 
-      <button className="flex items-center justify-center gap-2 bg-raba-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105 mx-auto mt-[50px] cursor-pointer">
-        Try Raba today
+      <button className="flex items-center justify-center gap-2 bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105 mx-auto mt-[50px] cursor-pointer">
+        Try Chanor today
         <ArrowUpRight className="w-5 h-5" />
       </button>
     </Container>

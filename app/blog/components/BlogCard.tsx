@@ -23,13 +23,13 @@ export default function BlogCard({ post }: BlogCardProps) {
         {/* Content */}
         <div>
           <div className="flex items-center justify-between mb-3">
-            <span className="inline-block bg-raba-orange/10 text-raba-orange text-xs font-medium px-3 py-1 rounded">
+            <span className="inline-block bg-chanor-orange/10 text-chanor-orange text-xs font-medium px-3 py-1 rounded">
               {post.category}
             </span>
             <span className="text-gray-400 text-xs">{post.date}</span>
           </div>
 
-          <h3 className="text-neutral-black font-semibold text-base mb-3 line-clamp-2 group-hover:text-raba-orange transition-colors">
+          <h3 className="text-neutral-black font-semibold text-base mb-3 line-clamp-2 group-hover:text-chanor-orange transition-colors">
             {post.title}
           </h3>
 

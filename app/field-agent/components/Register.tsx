@@ -75,7 +75,7 @@ export default function Register() {
             <button
               type="submit"
               disabled
-              className="max-w-[328px] w-full h-12 bg-raba-orange text-white rounded-2xl hover:bg-orange-600 hover:scale-105 transition-all duration-300 ease-in-out disabled:cursor-not-allowed"
+              className="max-w-[328px] w-full h-12 bg-chanor-orange text-white rounded-2xl hover:bg-orange-600 hover:scale-105 transition-all duration-300 ease-in-out disabled:cursor-not-allowed"
             >
               Submit
             </button>
