@@ -22,20 +22,20 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | RabaPay",
+    template: "%s | Chanor",
     default:
-      "RabaPay | The First African Banking App That Speaks Your Language",
+      "Chanor | The First African Banking App That Speaks Your Language",
   },
   description:
-    "RabaPay is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
+    "Chanor is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
   keywords: [
-    "RabaPay",
-    "RabaPay fintech app",
+    "Chanor",
+    "Chanor fintech app",
     "Send money Nigeria",
     "Airtime top up app",
     "Data recharge Nigeria",
     "Mobile banking app Nigeria",
-    "RabaPay business account",
+    "Chanor business account",
     "POS payment Nigeria",
     "Voice banking app",
     "Secure money transfer Nigeria",
@@ -44,38 +44,38 @@ export const metadata: Metadata = {
     "Online wallet Nigeria",
     "Digital banking Nigeria",
   ],
-  authors: [{ name: "RabaPay", url: "https://tryraba.com" }],
+  authors: [{ name: "Chanor", url: "https://trychanor.com" }],
   robots: "index, follow",
   openGraph: {
-    title: "RabaPay",
+    title: "Chanor",
     description:
-      "RabaPay is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
-    url: "https://tryraba.com",
-    siteName: "RabaPay",
+      "Chanor is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
+    url: "https://trychanor.com",
+    siteName: "Chanor",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://tryraba.com/rabapay-og.jpeg",
+        url: "https://trychanor.com/chanor-og.jpeg",
         width: 1200,
         height: 630,
-        alt: "RabaPay Logo",
+        alt: "Chanor Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "RabaPay",
+    title: "Chanor",
     description:
-      "RabaPay is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
+      "Chanor is the first African banking app that speaks your language, offering fast, secure, and easy money transfers, airtime top-ups, data recharges, POS payments, and digital banking services for individuals and businesses across Nigeria.",
     creator: "",
-    images: ["https://tryraba.com/rabapay-og.jpeg"],
+    images: ["https://trychanor.com/chanor-og.jpeg"],
   },
   icons: {
     icon: "/favicon.ico",
-    apple: "/rabapay-og.jpeg",
+    apple: "/chanor-og.jpeg",
   },
-  metadataBase: new URL("https://tryraba.com"),
+  metadataBase: new URL("https://trychanor.com"),
 };
 
 export default function RootLayout({
@@ -102,21 +102,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Raba Pay",
-              url: "https://tryraba.com",
-              logo: "https://tryraba.com/logo.png",
+              name: "Chanor",
+              url: "https://trychanor.com",
+              logo: "https://trychanor.com/logo.png",
               sameAs: [
-                "https://twitter.com/rabapay",
-                "https://facebook.com/rabapay",
-                "https://instagram.com/rabapay",
-                "https://linkedin.com/company/rabapay",
+                "https://twitter.com/chanor",
+                "https://facebook.com/chanor",
+                "https://instagram.com/chanor",
+                "https://linkedin.com/company/chanor",
               ],
               contactPoint: [
                 {
                   "@type": "ContactPoint",
                   telephone: "+2349015759875",
                   contactType: "customer support",
-                  email: "support@raba.ng",
+                  email: "support@chanor.ng",
                 },
               ],
             }),

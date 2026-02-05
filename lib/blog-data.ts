@@ -32,9 +32,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
     slug: "how-voice-banking-is-changing-financial-access",
-    title: "5 ways rabapay improves your payment processing",
+    title: "5 ways chanor improves your payment processing",
     excerpt:
-      "Find out how Rabapay helps you process payments more efficiently while improving customer experience.",
+      "Find out how Chanor helps you process payments more efficiently while improving customer experience.",
     category: "Fintech",
     coverImage: "/blog/blog1.svg",
     author: {
@@ -46,10 +46,10 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "2",
-    slug: "raba-launches-new-agent-network",
-    title: "5 ways rabapay improves your payment processing",
+    slug: "chanor-launches-new-agent-network",
+    title: "5 ways chanor improves your payment processing",
     excerpt:
-      "Find out how Rabapay helps you process payments more efficiently while improving customer experience.",
+      "Find out how Chanor helps you process payments more efficiently while improving customer experience.",
     category: "Announcements",
     coverImage: "/blog/blog1.svg",
     author: {
@@ -78,7 +78,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "guide-to-sending-money-with-voice",
     title: "Complete Guide to Sending Money with Your Voice",
     excerpt:
-      "Step-by-step instructions on how to use Raba's voice banking feature in your local language.",
+      "Step-by-step instructions on how to use Chanor's voice banking feature in your local language.",
     category: "Security",
     coverImage: "/blog/newIdea.svg",
     author: {
@@ -89,8 +89,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: "5",
-    slug: "growing-your-business-with-raba-pos",
-    title: "Growing Your Business with Raba POS Solutions",
+    slug: "growing-your-business-with-chanor-pos",
+    title: "Growing Your Business with Chanor POS Solutions",
     excerpt:
       "How small business owners are increasing revenue with our easy-to-use POS system.",
     category: "Announcements",

@@ -28,14 +28,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Back Link */}
         <Link
           href="/blog"
-          className="inline-flex items-center text-raba-orange hover:underline mb-8"
+          className="inline-flex items-center text-chanor-orange hover:underline mb-8"
         >
           ← Back to Blog
         </Link>
 
         {/* Header */}
         <header className="mb-8">
-          <span className="inline-block bg-raba-orange/30 text-raba-orange text-xs font-semibold px-3 py-1 rounded-md mb-4">
+          <span className="inline-block bg-raba-orange/30 text-chanor-orange text-xs font-semibold px-3 py-1 rounded-md mb-4">
             {post.category}
           </span>
           <h1 className="text-3xl md:text-4xl font-bold text-neutral-black mb-4">

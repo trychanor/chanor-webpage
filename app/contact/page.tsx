@@ -5,37 +5,37 @@ import CTASection from "../components/CTASection";
 import { ChevronRight } from "lucide-react";
 import { Container } from "../components/ui/Container";
 
-// FIXME: RABA CONTACT INFO AND SOCIAL LINKS
+// FIXME: CHANOR CONTACT INFO AND SOCIAL LINKS
 
 export const metadata: Metadata = {
   title: "Contact Us",
 
   description:
-    "Contact RabaPay for customer support, business inquiries, feedback or help with your account. We’re always ready to assist you with fast, reliable support.",
+    "Contact Chanor for customer support, business inquiries, feedback or help with your account. We’re always ready to assist you with fast, reliable support.",
 
   keywords: [
-    "Contact RabaPay",
-    "RabaPay support",
-    "Raba customer service",
+    "Contact Chanor",
+    "Chanor support",
+    "Chanor customer service",
     "Fintech support Nigeria",
     "Contact fintech company",
-    "RabaPay help",
+    "Chanor help",
     "Digital banking support",
     "Voice banking support",
   ],
 
   openGraph: {
-    title: "Contact RabaPay | Customer Support & Help",
+    title: "Contact Chanor | Customer Support & Help",
     description:
-      "Need help or have questions? Contact RabaPay for fast customer support, business inquiries, and assistance with your digital banking needs.",
-    url: "https://tryraba.com/contact",
-    siteName: "RabaPay",
+      "Need help or have questions? Contact Chanor for fast customer support, business inquiries, and assistance with your digital banking needs.",
+    url: "https://trychanor.com/contact",
+    siteName: "Chanor",
     images: [
       {
-        url: "https://tryraba.com/rabapay-og.jpeg",
+        url: "https://trychanor.com/chanor-og.jpeg",
         width: 1200,
         height: 630,
-        alt: "Contact RabaPay Support",
+        alt: "Contact Chanor Support",
       },
     ],
     type: "website",
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Contact RabaPay | Customer Support",
+    title: "Contact Chanor | Customer Support",
     description:
-      "Get in touch with RabaPay for support, feedback, or business inquiries.",
-    images: ["https://tryraba.com/rabapay-og.jpeg"],
+      "Get in touch with Chanor for support, feedback, or business inquiries.",
+    images: ["https://trychanor.com/chanor-og.jpeg"],
   },
 
   alternates: {
-    canonical: "https://tryraba.com/contact",
+    canonical: "https://trychanor.com/contact",
   },
 };
 
@@ -111,13 +111,13 @@ export default function page() {
             <button
               type="submit"
               disabled={true}
-              className="max-w-[550px] w-full md:w-auto h-12 bg-raba-orange text-white rounded-2xl hover:bg-orange-600 hover:scale-105 transition-all duration-300 ease-in-out disabled:cursor-not-allowed"
+              className="max-w-[550px] w-full md:w-auto h-12 bg-chanor-orange text-white rounded-2xl hover:bg-orange-600 hover:scale-105 transition-all duration-300 ease-in-out disabled:cursor-not-allowed"
             >
               Send Feedback
             </button>
           </form>
 
-          <div className="mt-6 md:mt-0 md:ml-6 flex flex-col max-w-[297px] mx-auto text-raba-orange items-center  md:items-start text-center md:text-left gap-8">
+          <div className="mt-6 md:mt-0 md:ml-6 flex flex-col max-w-[297px] mx-auto text-chanor-orange items-center  md:items-start text-center md:text-left gap-8">
             <a
               href="tel:+"
               className="inline-flex items-center gap-1 underline"
@@ -125,10 +125,10 @@ export default function page() {
               Call: 09015759875 <ChevronRight className="inline" />
             </a>
             <a
-              href="mailto:support@raba.ng"
+              href="mailto:support@chanor.ng"
               className="inline-flex items-center gap-1 underline mt-2"
             >
-              Support: support@raba.ng <ChevronRight className="inline" />
+              Support: support@chanor.ng <ChevronRight className="inline" />
             </a>
             <a
               href="http://"
@@ -136,14 +136,14 @@ export default function page() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 underline mt-2"
             >
-              Legal: legal@rabapay.com <ChevronRight className="inline" />
+              Legal: legal@chanor.com <ChevronRight className="inline" />
             </a>
             <div className="flex justify-between w-full">
               <a
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-raba-orange hover:text-orange-600 transition-colors"
+                className="text-chanor-orange hover:text-orange-600 transition-colors"
               >
                 <Twitter className="w-5 h-5" />
               </a>
@@ -152,7 +152,7 @@ export default function page() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-raba-orange hover:text-orange-600 transition-colors"
+                className="text-chanor-orange hover:text-orange-600 transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -160,7 +160,7 @@ export default function page() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-raba-orange hover:text-orange-600 transition-colors"
+                className="text-chanor-orange hover:text-orange-600 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
@@ -168,7 +168,7 @@ export default function page() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-raba-orange hover:text-orange-600 transition-colors"
+                className="text-chanor-orange hover:text-orange-600 transition-colors"
               >
                 <LinkedinIcon className="w-5 h-5" />
               </a>

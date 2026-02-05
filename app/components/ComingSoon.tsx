@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RabaBusinessWaltlistIllustration from "@/public/home/raba-business-waitlist.jpg";
+import ChanorBusinessWaltlistIllustration from "@/public/home/chanor-business-waitlist.jpg";
 import { Container } from "./ui/Container";
 export default function ComingSoon() {
   return (
@@ -7,12 +7,12 @@ export default function ComingSoon() {
       <div className="bg-white rounded-[5px] border border-[#F3F2F2] overflow-hidden">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="p-4 space-y-6">
-            <span className="text-raba-orange text-sm font-semibold uppercase tracking-wider flex items-center gap-2">
-              <div className="w-12 h-1.5 bg-raba-orange" />
+            <span className="text-chanor-orange text-sm font-semibold uppercase tracking-wider flex items-center gap-2">
+              <div className="w-12 h-1.5 bg-chanor-orange" />
               Coming Soon
             </span>
             <h2 className="text-2xl md:text-[2rem] -tracking-[0.25px] font-semibold text-neutral-black">
-              Raba For Business is Coming to You. <br /> Get Notify When We
+              Chanor For Business is Coming to You. <br /> Get Notify When We
               Launched
             </h2>
             <p className="text-[#8E8E93] leading-6">
@@ -32,7 +32,7 @@ export default function ComingSoon() {
           </div>
           <div className="h-full">
             <Image
-              src={RabaBusinessWaltlistIllustration}
+              src={ChanorBusinessWaltlistIllustration}
               placeholder="blur"
               alt="Business owner"
               className="w-full h-full object-cover"

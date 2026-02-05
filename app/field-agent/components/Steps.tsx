@@ -4,17 +4,17 @@ import Image from "next/image";
 export default function Steps() {
   const HOW_IT_WORKS = [
     {
-      illustration: "/field-agent/raba-agent-step-1.jpg",
+      illustration: "/field-agent/chanor-agent-step-1.jpg",
       heading: "Apply Online",
       description: "Fill the form and upload your ID",
     },
     {
-      illustration: "/field-agent/raba-agent-step-2.jpg",
+      illustration: "/field-agent/chanor-agent-step-2.jpg",
       heading: "Get Verified",
       description: "Our team reviews and approves your profile",
     },
     {
-      illustration: "/field-agent/raba-agent-step-3.jpg",
+      illustration: "/field-agent/chanor-agent-step-3.jpg",
       heading: "Start Earning",
       description:
         "Begin onboarding customers and managing POS stands in your area",

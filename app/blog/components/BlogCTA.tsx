@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 export default function BlogCTA() {
   return (
     <Container className="pb-12 md:pb-16">
-      <section className="bg-raba-orange py-12 md:py-16 rounded-lg">
+      <section className="bg-chanor-orange py-12 md:py-16 rounded-lg">
         <Container>
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-center md:text-left max-w-lg">
@@ -23,9 +23,9 @@ export default function BlogCTA() {
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className="w-full px-5 py-5 pl-12  rounded-xl border border-white bg-raba-orange text-neutral-black placeholder:text-gray-200 focus:outline-none focus:ring-2 focus:ring-raba-orange/20 focus:border-raba-orange transition-all"
+                  className="w-full px-5 py-5 pl-12  rounded-xl border border-white bg-chanor-orange text-neutral-black placeholder:text-gray-200 focus:outline-none focus:ring-2 focus:ring-chanor-orange/20 focus:border-chanor-orange transition-all"
                 />
-                <button className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-raba-orange text-white text-sm font-medium rounded-full hover:bg-orange-600 transition-colors">
+                <button className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-chanor-orange text-white text-sm font-medium rounded-full hover:bg-orange-600 transition-colors">
                   Enter Email
                 </button>
               </div>

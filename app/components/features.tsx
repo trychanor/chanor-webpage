@@ -7,7 +7,7 @@ import { Container } from "./ui/Container";
 
 const USE_CASES = [
   {
-    image: "/home/raba-bills-and-subscriptions.jpg",
+    image: "/home/chanor-bills-and-subscriptions.jpg",
     title: "Bills & Subscriptions",
     description: "Electricity, TV, Internet — done in seconds",
     voiceCommand: "Iddo, pay my IKEYA bill",
@@ -16,7 +16,7 @@ const USE_CASES = [
     isWave: false,
   },
   {
-    image: "/home/raba-airtime-topup.jpg",
+    image: "/home/chanor-airtime-topup.jpg",
     title: "Top UP Airtime / Data",
     description: "stay connected, hassle free.",
     voiceCommand: "Ebit, recharge ₦2000  MTN",
@@ -25,10 +25,10 @@ const USE_CASES = [
     isWave: false,
   },
   {
-    image: "/home/raba-send-money.jpg",
+    image: "/home/chanor-send-money.jpg",
     title: "Send Money",
     description: "Send money to any bank instantly. No stress.",
-    voiceCommand: "Raba send ₦2000 to James",
+    voiceCommand: "Chanor send ₦2000 to James",
     color: "orange",
     Icon: "/wave.svg",
     isWave: true,
@@ -39,7 +39,7 @@ export default function VoiceFeaturesSection() {
   return (
     <Container className="pb-18.75 md:pb-25">
       <div className="text-center">
-        <p className="text-base text-raba-orange font-semibold leading-5 -tracking-[0.25px]">
+        <p className="text-base text-chanor-orange font-semibold leading-5 -tracking-[0.25px]">
           Everyday Money Tools
         </p>
 

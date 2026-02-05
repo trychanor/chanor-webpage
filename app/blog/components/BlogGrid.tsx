@@ -39,7 +39,7 @@ export default function BlogGrid() {
             onClick={() => handleCategoryChange(category)}
             className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 cursor-pointer ${
               activeCategory === category
-                ? "bg-raba-orange text-white"
+                ? "bg-chanor-orange text-white"
                 : "bg-white text-gray-600 hover:bg-gray-200"
             }`}
           >
@@ -62,7 +62,7 @@ export default function BlogGrid() {
             <div className="flex justify-center mt-10">
               <button
                 onClick={handleLoadMore}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-raba-orange text-white font-medium rounded-full hover:bg-orange-600 transition-colors duration-300"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-chanor-orange text-white font-medium rounded-full hover:bg-orange-600 transition-colors duration-300"
               >
                 Load More
                 <ArrowUpRight className="w-4 h-4" />

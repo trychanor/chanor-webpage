@@ -7,17 +7,17 @@ import { motion } from "framer-motion";
 const CAROUSEL_IMAGES = [
   {
     id: 1,
-    url: "/home/raba-hero-1.jpg",
+    url: "/home/chanor-hero-1.jpg",
     alt: "Person in marketplace",
   },
   {
     id: 2,
-    url: "/home/raba-hero-2.jpg",
+    url: "/home/chanor-hero-2.jpg",
     alt: "Business owner",
   },
   {
     id: 3,
-    url: "/home/raba-hero-3.jpg",
+    url: "/home/chanor-hero-3.jpg",
     alt: "Market vendor",
   },
 ];
