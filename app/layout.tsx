@@ -4,6 +4,7 @@ import "./globals.css";
 import LenisWrapper from "@/app/components/LenisWrapper";
 import Header from "@/app/components/header";
 import FooterCTASection from "@/app/components/footer";
+import { ToastProvider } from "@/app/components/ToastProvider";
 import Script from "next/script";
 // import WaitlistModal from "./components/ui/WaitlistModal";
 
@@ -86,15 +87,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
-        <LenisWrapper>
-          <Header />
+        <ToastProvider>
+          <LenisWrapper>
+            <Header />
 
-          <main>
-            {children}
-            {/* <WaitlistModal /> */}
-          </main>
-          <FooterCTASection />
-        </LenisWrapper>
+            <main>
+              {children}
+              {/* <WaitlistModal /> */}
+            </main>
+            <FooterCTASection />
+          </LenisWrapper>
+        </ToastProvider>
         <Script
           type="application/ld+json"
           id="organization-schema"

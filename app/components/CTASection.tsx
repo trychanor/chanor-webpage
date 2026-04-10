@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import { Container } from "./ui/Container";
+import { useUnavailableToast } from "./ToastProvider";
 
 export default function CTASection() {
+  const showUnavailableToast = useUnavailableToast();
+
   return (
     <Container className="bg-[#EC5C28] text-white">
       <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -14,7 +19,11 @@ export default function CTASection() {
             just by speaking.
           </p>
           <div className="flex flex-row max-sm:flex-row  gap-4 w-fit">
-            <button className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg">
+            <button
+              type="button"
+              onClick={() => showUnavailableToast("app-store")}
+              className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg"
+            >
               <Image
                 src="/apple.svg"
                 alt="Apple Logo"
@@ -27,7 +36,11 @@ export default function CTASection() {
                 <span className="font-medium text-base">APP STORE</span>
               </div>
             </button>
-            <button className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg">
+            <button
+              type="button"
+              onClick={() => showUnavailableToast("google-play")}
+              className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg"
+            >
               <Image
                 src="/icon-google-playstore.png"
                 alt="Google Play Store"
