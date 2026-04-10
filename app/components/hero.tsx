@@ -3,8 +3,11 @@ import Image from "next/image";
 import SmoothImageCarousel from "@/app/components/carousel";
 import { Container } from "./ui/Container";
 import { motion } from "framer-motion";
+import { useUnavailableToast } from "./ToastProvider";
 
 export default function Hero() {
+  const showUnavailableToast = useUnavailableToast();
+
   return (
     <Container>
       <div className="flex flex-col lg:flex-row justify-between gap-2 py-12.5">
@@ -34,6 +37,8 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap flex-row max-sm:flex-row gap-4">
             <motion.button
+              type="button"
+              onClick={() => showUnavailableToast("app-store")}
               className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -52,6 +57,8 @@ export default function Hero() {
               </div>
             </motion.button>
             <motion.button
+              type="button"
+              onClick={() => showUnavailableToast("google-play")}
               className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

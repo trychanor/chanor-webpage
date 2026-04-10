@@ -1,6 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import { Container } from "./ui/Container";
+import { useUnavailableToast } from "./ToastProvider";
+
 export default function TrustSecuritySection() {
+  const showUnavailableToast = useUnavailableToast();
+
   return (
     <Container className="pb-18.75 md:pb-25">
       <div className="grid md:grid-cols-2 gap-6.25 items-center md:justify-between">
@@ -19,7 +25,11 @@ export default function TrustSecuritySection() {
             your peace of mind stay secure.
           </p>
 
-          <button className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105">
+          <button
+            type="button"
+            onClick={() => showUnavailableToast("open-account")}
+            className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[56px] transition-all duration-300 transform hover:scale-105"
+          >
             Open an account
           </button>
         </div>
