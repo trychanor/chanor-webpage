@@ -1,9 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import AnimatedMicIcon from "./ui/AnimatedMicIcon";
 import { SoundWave } from "./ui/SoundWave";
 import { Container } from "./ui/Container";
+import { useUnavailableToast } from "./ToastProvider";
 
 export default function VoiceBankingSection() {
+  const showUnavailableToast = useUnavailableToast();
+
   return (
     <Container className="py-18.75 md:py-25">
       <p className="text-base text-chanor-orange font-semibold leading-5 -tracking-[0.25px] text-center">
@@ -30,7 +35,11 @@ export default function VoiceBankingSection() {
             paid instantly.
           </p>
 
-          <button className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[3.5rem] transition-all duration-300 transform hover:scale-105 cursor-pointer">
+          <button
+            type="button"
+            onClick={() => showUnavailableToast("open-account")}
+            className="bg-chanor-orange hover:bg-orange-600 text-white leading-6 font-semibold px-6 py-3 rounded-[3.5rem] transition-all duration-300 transform hover:scale-105 cursor-pointer"
+          >
             Open an account
           </button>
         </div>
