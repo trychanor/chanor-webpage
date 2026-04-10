@@ -1,7 +1,10 @@
+"use client";
+
 import { Facebook, Instagram, LinkedinIcon, Twitter } from "lucide-react";
 import Image from "next/image";
 import { Container } from "./ui/Container";
 import Link from "next/link";
+import { useUnavailableToast } from "./ToastProvider";
 
 const FOOTER_SECTIONS = [
   {
@@ -42,6 +45,8 @@ const FOOTER_SECTIONS = [
 ];
 
 export default function FooterCTASection() {
+  const showUnavailableToast = useUnavailableToast();
+
   return (
     <>
       <footer className="bg-white py-[75px] md:py-[100px]">
@@ -72,7 +77,11 @@ export default function FooterCTASection() {
                 Proudly built in Nigeria, for Nigerians.
               </p>
               <div className="mt-4 flex gap-4">
-                <button className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg">
+                <button
+                  type="button"
+                  onClick={() => showUnavailableToast("google-play")}
+                  className="flex items-center gap-1.5 md:gap-3 bg-black text-white py-1 px-1.5 md:py-2 md:px-4 rounded-lg"
+                >
                   <Image
                     src="/icon-google-playstore.png"
                     alt="Google Play Logo"
@@ -169,8 +178,7 @@ export default function FooterCTASection() {
               platform, working with licensed financial service partners who
               provide the regulated wallet and payment infrastructure. Chanor
               is operated by a registered brand collaborator, legally
-              incorporated in Nigeria, and licensed in partnership with Providus
-              Bank.
+              incorporated in Nigeria, and licensed in partnership with our financial partners.
             </p>
           </div>
         </Container>

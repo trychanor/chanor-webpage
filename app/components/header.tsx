@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Container } from "./ui/Container";
 import { X } from "lucide-react";
 import Link from "next/link";
+import { useUnavailableToast } from "./ToastProvider";
 
 const NAV_ITEMS = [
   { label: "About Us", href: "/about" },
@@ -15,6 +16,7 @@ const NAV_ITEMS = [
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const showUnavailableToast = useUnavailableToast();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -52,9 +54,9 @@ const Header = () => {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/chanorlogo.png"
+            src="/chanorlogo.svg"
             alt="Chanor"
-            className="scale-200"
+            className="scale-200 pb-3"
             width={120}
             height={40}
             sizes="144px"
@@ -75,7 +77,11 @@ const Header = () => {
         </nav>
 
         {/* Desktop CTA Button */}
-        <button className="text-base leading-5 -tracking-[0.25px] hidden lg:block px-6 py-3 bg-[#EC5C28] text-white rounded-full hover:bg-[#d94f1f] transition-colors duration-200">
+        <button
+          type="button"
+          onClick={() => showUnavailableToast("join")}
+          className="text-base leading-5 -tracking-[0.25px] hidden lg:block px-6 py-3 bg-[#EC5C28] text-white rounded-full hover:bg-[#d94f1f] transition-colors duration-200"
+        >
           Join Chanor
         </button>
 
@@ -117,7 +123,14 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <button className="mt-2 w-full px-5 py-3 bg-[#EC5C28] text-white rounded-full font-semibold hover:bg-[#d94f1f] transition-colors duration-300 cursor-pointer">
+            <button
+              type="button"
+              onClick={() => {
+                showUnavailableToast("join");
+                setIsMenuOpen(false);
+              }}
+              className="mt-2 w-full px-5 py-3 bg-[#EC5C28] text-white rounded-full font-semibold hover:bg-[#d94f1f] transition-colors duration-300 cursor-pointer"
+            >
               Join Chanor
             </button>
           </nav>
