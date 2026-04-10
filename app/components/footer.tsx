@@ -57,7 +57,7 @@ export default function FooterCTASection() {
               {/* Logo */}
               <div>
                 <Image
-                  src="/chanorlogo.png"
+                  src="/chanorlogo.svg"
                   alt="Chanor Logo"
                   width={120}
                   height={40}
